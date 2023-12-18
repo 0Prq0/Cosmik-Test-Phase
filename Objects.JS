@@ -1,0 +1,1 @@
+let Cosmetic = 15000;

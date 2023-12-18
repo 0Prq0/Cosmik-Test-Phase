@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/x-icon" href="../static/Imgs/Favicon.png">
+
+    <link rel="stylesheet" href="../static/Css/index.css">
+    <title>Authentication</title>
+</head>
+<body style="    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+">
+    <form action="/login" method="post" style="margin: 250px; background-color: black; width: 500px; height: 300px;
+     border-color: bisque;"><h1 style="text-indent: 200px;">Join cosmik</h1>
+    <h1>Username</h1>
+    <input type="username" style="width: 490px;height: 40px;" autocomplete="username" placeholder="username">
+    <div style="border-color: white;">
+        <h1>Password</h1>
+        <input type="password" style="width: 490px;height: 40px;" autocomplete="password"
+         placeholder="Password">
+
+
+        <button id="my-button">Join Cosmik</button>
+
+        <a href="/templates/index.html">
+            <button style="border-color: white; margin: 90px;">Join As Guest</button>
+
+        </a> 
+       
+        
+    </form>
+    <script>
+        var myButton = document.querySelector("#my-button");
+myButton.addEventListener("click", function() {
+    alert("DM Prq on discord to be authorized");
+});
+        </script>
+</div>
+</body>
+</html>
